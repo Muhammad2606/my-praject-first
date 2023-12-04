@@ -1,0 +1,14 @@
+.banner{
+    width: 100%;
+    height: 90vh;
+    background-image: url('https://github.com/Muhammad2606/for-img-api/blob/main/img/header.jpg?raw=true');
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.banner h1{
+    color: aqua;
+    font-size: 3rem;
+}

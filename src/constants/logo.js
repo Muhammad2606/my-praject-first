@@ -1,0 +1,1 @@
+export const  logo = 'https://bucolic-melba-4ec0d7.netlify.app/img/toys%20logo.png';

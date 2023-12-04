@@ -1,0 +1,7 @@
+.navbarNav a{
+    margin-left: 15px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+}
