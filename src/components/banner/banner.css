@@ -11,4 +11,13 @@
 .banner h1{
     color: aqua;
     font-size: 3rem;
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+   .banner{
+    height: 50vh;
+    background-size: cover;
+
+   }
+    
 }
