@@ -5,3 +5,4 @@ export {default as Marvel} from './marvel/marvel';
 export {default as Dc} from './dc/dc';
 export {default as Ani} from './ani/ani';
 export {default as Showcard} from './showCard/showcard';
+export {default as Counter} from './counter/counter';

@@ -3,6 +3,7 @@
   box-shadow:  9px 9px 18px #949494,
                -9px -9px 18px #ffffff;
                text-align: center;
+               position: relative;
   }
   .Marvelitem .p{
       margin-bottom: 0.5rem;
@@ -47,3 +48,45 @@
   .Marvelitem .img:hover .aye{
       opacity: 1;
   }
+
+  .card__badge{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(227, 112, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    transform: translate(20px, -20px) scale(1);
+    transition: all .4s ease;
+    opacity: 0.8;
+    font-size: 20px;
+    font-weight: 900;
+    animation: scaleAnimation 1s ease infinite;
+    color: white;
+    z-index: 999;
+}
+
+.btn__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+.card__badge__hidden{
+    display: none;
+    
+}
+
+
+@keyframes scaleAnimation {
+    to{
+    transform: translate(20px, -20px) scale(1.05);
+    opacity: 1;
+        
+    }
+}
